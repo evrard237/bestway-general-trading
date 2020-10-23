@@ -1,0 +1,264 @@
+.row .col-5 {
+    display: block;
+    text-align: center;
+    
+    border-left: .5px solid #b32400;
+}
+.col-7{
+      display: block;
+    text-align: center;
+/*     border-left: .5px solid #b32400*/
+    }
+
+.container-fluid {
+ display: block;
+ background-color: #eceeef; 
+}
+
+
+body{
+/*    display: block;*/
+    
+}
+
+
+
+ .jumbotron{
+    background: none;
+    text-align: center;
+     
+}
+
+.sectionLight {
+    background-color: #eceeef;
+    
+}
+
+.SectionDark{
+    background-color: #cccccc;
+    padding: 1rem;
+}
+
+
+
+
+.navbar-inverse .navbar-nav .nav-link:focus, .navbar-inverse .navbar-nav .nav-link:hover{
+    background-color: #cc2900
+}
+
+
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler{
+    color:white;
+
+}
+.bg-faded{
+    background-color: #eceeef;
+    
+   
+}
+
+.ul {
+    margin: 1rem;
+    display: block;
+    
+}
+
+.dropdown-menu{
+    background-color: #ffcccc ;
+}
+
+
+.col-md-6  {
+    margin-bottom: 2rem
+}
+
+
+.coolStuffWrapper{
+    margin-top: 15px;
+}
+
+button.coolStuffbtn{
+    background-color: #cc2900;
+    color: white;
+    display: block;
+    margin: auto;
+}
+
+.imagemodal{
+    background-color:white;
+    border-radius: 20%;
+    box-shadow: 1px 1px 9px;
+    margin-top: 25px
+}
+label{
+    margin-top: .5rem
+}
+h5.modal-title{
+    margin: auto
+}
+
+
+
+.homeappliance{
+    background-image: linear-gradient(red,green);
+}
+
+.imgCenter2{
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    background-image: linear-gradient(#cccccc,#737373)
+}
+
+
+.btnCenter {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 315px;
+    
+}
+.quotation{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+.size{
+    width: 25%;
+    background-color: #eceeef;
+    margin: 13px 0 13px 0;
+
+    border-radius: 20%;
+    box-shadow: 1px 1px 9px;
+    
+}
+.jef{
+    background-color: black;
+    margin-top: 30px;
+    padding: 10px
+    
+}
+
+.fa {
+    margin: 10px;
+}
+
+.fa-facebook-square{
+    color: #3b5998;
+    margin: 10px;
+}
+
+.fa-google-plus-square{
+    color: #c32f10;
+    margin: 10px;
+}
+
+.fa-instagram{
+    color: #ffffff;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+.socialwrapper{
+    margin: auto;
+}
+
+
+
+
+
+
+   
+    
+
+@media screen and (max-width: 1200px){
+    .container {
+    margin: ;
+    line-height: 1rem;
+ background-color: #eceeef;
+display: block
+    
+}
+    .col-7{
+        
+    }
+    .row .col-5{
+         
+    }
+    img.evra{
+        
+    }
+    .col-2.part2{
+        display: none;
+    } 
+    
+    
+}
+
+@media screen and (max-width:992px){
+   
+    
+    .col-2.part2{
+        display: none;
+    }
+    .container{
+        display: block;
+/*        width: 947px;*/
+    }
+    .row .col-5{
+        display: none;
+    }
+    .size{
+        width: 17%
+    }
+}
+
+@media screen and (max-width:768px){
+    
+     .col-7{
+        display: none;
+    }
+     .row .col-5{
+        display: none;
+    }
+    .col-2.part2{
+        display: none;
+    } 
+    .size{
+        width: 17%
+    }
+    
+}
+
+@media screen and (max-width:576px){
+     .col-7{
+        display: none;
+    }
+     .row .col-5{
+        display: none;
+    }
+    .quotation{
+        display: block;
+        margin: auto;
+        font-size: 14px;
+        width: 70%  
+    }
+    img.evra{
+        width: 80%;
+    }
+    
+    .size{
+        width: 19%
+    }
+    
+   
+}
+
